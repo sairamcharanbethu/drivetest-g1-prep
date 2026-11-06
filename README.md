@@ -6,7 +6,7 @@ Official MTO Driver's Handbook (ontario.ca).
 - **24 lessons** covering Safe and Responsible Driving, traffic signs and
   lights, licensing / demerit points, and your vehicle — with
   India-difference callouts for experienced drivers new to Ontario.
-- **120 lesson questions + 8 handbook sample questions**, every one with a
+- **156 lesson questions + 8 handbook sample questions**, every one with a
   handbook source citation.
 - **Unlimited free mock tests** — full 40-question mock (20 signs + 20
   rules), signs-only, rules-only — shuffled every run and scored exactly

@@ -66,7 +66,7 @@ function renderHome(){
   app.innerHTML=
   '<div class="card"><h2>Your G1 dashboard</h2>'+
   '<p><span class="badge free">Unlimited free tests — no sign-up</span> <span class="badge">40 questions · 20 signs + 20 rules</span> <span class="badge">Pass = 16/20 in EACH section</span></p>'+
-  '<p>The real G1 test has <strong>40 multiple-choice questions — 20 Road Signs and 20 Rules of the Road</strong>. You must score <strong>at least 16/20 (80%) in each section separately</strong>. Failing one section fails the whole test, even if your total is high. That is exactly how the mock tests below are scored.</p>'+
+  '<p>The real G1 test has <strong>40 multiple-choice questions — 20 Road Signs and 20 Rules of the Road</strong>. You must score <strong>at least 16/20 (80%) in each section separately</strong>. Failing one section fails the whole test, even if your total is high. That is exactly how the mock tests below are scored. Note: DriveTest officially states a total score of at least 80% and does not publish a per-section mark — 16/20 per section is the widely reported practice standard and the safer target.</p>'+
   '<div class="statgrid">'+
     '<div class="stat"><div class="num">'+done+' / 24</div><div class="lbl">lessons completed</div></div>'+
     '<div class="stat"><div class="num">'+mocks.length+'</div><div class="lbl">mock tests taken</div></div>'+
@@ -175,8 +175,8 @@ function renderQuizInto(el,qs,tag,onDone){
 /* ---------- MOCK TESTS ---------- */
 function renderMockChooser(){
   app.innerHTML='<div class="card"><h2>Mock tests — unlimited &amp; free</h2>'+
-  '<p>Scored exactly like the real G1: <strong>16/20 (80%) in each section</strong>. A mock only counts as a pass when <em>both</em> sections pass.</p>'+
-  '<p><a class="btn" href="#/mock/full">Full G1 mock — 40 questions</a></p><p class="muted">20 Road Signs + 20 Rules, sampled fresh from all 120 lesson questions and shuffled each time.</p>'+
+  '<p>Scored exactly like the real G1: <strong>16/20 (80%) in each section</strong>. A mock only counts as a pass when <em>both</em> sections pass. DriveTest officially states a total score of at least 80% and does not publish a per-section mark; 16/20 per section is the widely reported practice standard and the safer target.</p>'+
+  '<p><a class="btn" href="#/mock/full">Full G1 mock — 40 questions</a></p><p class="muted">20 Road Signs + 20 Rules, sampled fresh from all 156 lesson questions and shuffled each time.</p>'+
   '<p><a class="btn secondary" href="#/mock/signs">Road Signs only — 20 questions</a></p>'+
   '<p><a class="btn secondary" href="#/mock/rules">Rules only — 20 questions</a></p>'+
   '<p><label><input type="checkbox" id="cdCheck"> Show a 30-minute countdown timer during the test (optional — the timer never submits your test for you)</label></p>'+

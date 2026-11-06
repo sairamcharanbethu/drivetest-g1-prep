@@ -3,10 +3,10 @@
     "title": "Ontario G1 Prep — DriveTest Practice",
     "source": "Official MTO Driver's Handbook (ontario.ca), checked against ontario.ca on 2026-11-06",
     "disclaimer": "This handbook is only a guide. For official purposes, refer to the Highway Traffic Act, the Motorized Snow Vehicles Act and the Off-Road Vehicles Act of Ontario.",
-    "g1_format": "40 questions: 20 Road Signs + 20 Rules of the Road. Pass = at least 16/20 (80%) in EACH section separately. Failing one section fails the whole test. G1 package fee $159.75 — confirm at drivetest.ca, fees change.",
+    "g1_format": "40 questions: 20 Road Signs + 20 Rules of the Road. Pass = at least 16/20 (80%) in EACH section separately. Failing one section fails the whole test. G1 package fee $159.75 — confirm at drivetest.ca, fees change. Note: DriveTest officially states a total score of at least 80% and does not publish a per-section mark; 16/20 per section is the widely reported practice standard and the safer target.",
     "warn_range_correction": "CORRECTED 2026-11-06 — the handbook's warn-range figures (3 days first / 7 days second) are OUTDATED. Current penalties for BAC 0.05–0.079: 1st offence = 7-day suspension + $250 penalty + 8-hour alcohol education program; 2nd = 14-day suspension + $350 + 16-hour alcohol treatment program; 3rd = 30-day suspension + $450 + 16-hour treatment program + 6-month ignition interlock. BAC 0.08 or over, or refusing a sample: immediate 90-day administrative suspension (ADLS) + 7-day vehicle impoundment.",
     "lessons": 24,
-    "lesson_questions": 120,
+    "lesson_questions": 156,
     "sample_questions": 8
   },
   "lessons": [
@@ -89,7 +89,8 @@
         "Seating: see the ground 4 m ahead; headrest middle behind head.",
         "Seatbelts: everyone, every trip; driver responsible for under-16s.",
         "Child seats: <9 kg rear-facing; 9–18 kg child seat + tether; booster 18–36 kg, under 8, under 145 cm; seatbelt alone at 8 yrs / 36 kg / 145 cm.",
-        "Headlights: 150 m visibility, 110 m illumination, low beams within 150 m oncoming / 60 m behind, required ½ hr before sunset to ½ hr after sunrise and when you can't see <150 m."
+        "Headlights: 150 m visibility, 110 m illumination, low beams within 150 m oncoming / 60 m behind, required ½ hr before sunset to ½ hr after sunrise and when you can't see <150 m.",
+        "Mirrors: left — lean toward the window until you can just see the rear of the car; right — lean to the centre, same."
       ],
       "india_note": "In India children often ride unrestrained and rear seatbelts are rarely used. In Ontario every passenger, every trip, must be buckled — the driver is legally responsible for passengers under 16, with fines + demerit points.",
       "questions": [
@@ -147,6 +148,28 @@
           ],
           "answer": 1,
           "source": "L1, headlight requirement."
+        },
+        {
+          "q": "Do you have to wear a seatbelt while backing up?",
+          "options": [
+            "Yes, always",
+            "No — you don't have to wear a seatbelt while backing up, but buckle up again before moving forward",
+            "Only if a passenger is in the vehicle",
+            "Only on a public road"
+          ],
+          "answer": 1,
+          "source": "L6, 'You don't have to wear a seatbelt while backing up; if you remove it to turn properly, buckle up again before moving forward.'"
+        },
+        {
+          "q": "To adjust your left outside mirror, you should:",
+          "options": [
+            "Lean toward the window and adjust until you can just see the rear of your car",
+            "Lean to the centre of the car",
+            "Adjust it so you can see the whole side of your car",
+            "Point it down at the road"
+          ],
+          "answer": 0,
+          "source": "L1, 'Left outside mirror: lean toward window, adjust until you can just see the rear of your car. Right outside mirror: lean to centre, same.'"
         }
       ]
     },
@@ -159,7 +182,8 @@
         "Signal well before every move; signalling alone is not enough.",
         "Keep right except to pass or turn left.",
         "Default speed limits 50 km/h in towns / 80 km/h elsewhere; 2-second following distance minimum.",
-        "Police directions override lights/signs; documents must be produced immediately, not within 24 hours."
+        "Police directions override lights/signs; documents must be produced immediately, not within 24 hours.",
+        "If your turn signals or brake lights fail, use hand and arm signals: left arm straight out = left turn, left arm bent upward at the elbow = right turn, left arm extended downward = slowing or stopping."
       ],
       "india_note": "India drives on the left, so 'keep right' and left turns across oncoming traffic feel reversed. Following distances under 1 second and horn-based driving are normal in India; Ontario tests the counted 2-second rule, and tailgating = 4 demerit points.",
       "questions": [
@@ -217,6 +241,61 @@
           ],
           "answer": 1,
           "source": "L2, cruise-control warning."
+        },
+        {
+          "q": "When a police officer asks for your licence, vehicle permit and insurance, you must produce them:",
+          "options": [
+            "Within 24 hours",
+            "Immediately — you do NOT have 24 hours",
+            "At your next licence renewal",
+            "Only if you are charged with an offence"
+          ],
+          "answer": 1,
+          "source": "L2, 'immediately surrender licence, vehicle permit (or copy) and insurance — you do NOT have 24 hours.'"
+        },
+        {
+          "q": "A driver ahead holds their left arm straight out the window. What signal is this?",
+          "options": [
+            "Right turn",
+            "Left turn",
+            "Slowing or stopping",
+            "U-turn"
+          ],
+          "answer": 1,
+          "source": "Official MTO Driver's Handbook, Driving Along (Diagram 2-8) — hand and arm signals: left arm straight out = left turn. Same nationally recognized signals are spelled out in the handbook's hand-signal section (left arm straight out = left turn)."
+        },
+        {
+          "q": "Which hand signal means the driver is turning right?",
+          "options": [
+            "Left arm straight out",
+            "Left arm bent upward at the elbow, forearm pointing up",
+            "Left arm extended downward",
+            "Right arm straight up over the head"
+          ],
+          "answer": 1,
+          "source": "Official MTO Driver's Handbook, Driving Along (Diagram 2-8) — hand and arm signals: left arm bent upward = right turn. Same nationally recognized signals are spelled out in the handbook's hand-signal section (raise left arm to shoulder height with elbow bent = right turn)."
+        },
+        {
+          "q": "Which hand signal means the driver is slowing down or stopping?",
+          "options": [
+            "Left arm straight out",
+            "Left arm bent upward at the elbow",
+            "Left arm extended downward",
+            "Waving a hand above the roof"
+          ],
+          "answer": 2,
+          "source": "Official MTO Driver's Handbook, Driving Along (Diagram 2-8) — hand and arm signals: left arm down = slowing or stopping. Same nationally recognized signals are spelled out in the handbook's hand-signal section (left arm out and down = slowing)."
+        },
+        {
+          "q": "If your turn signals and brake lights are not working, what must you do?",
+          "options": [
+            "Drive only in daylight",
+            "Use hand and arm signals",
+            "Sound your horn before every turn",
+            "Drive with your hazard lights on"
+          ],
+          "answer": 1,
+          "source": "Official MTO Driver's Handbook, Driving Along — 'If your turn signals and brake lights are not working, use hand and arm signals.'"
         }
       ]
     },
@@ -439,7 +518,8 @@
         "Right on red after a full stop unless signed otherwise; left on red only one-way → one-way.",
         "Waiting to turn left: keep wheels straight until you can complete the turn.",
         "Roundabouts: circulating traffic has right-of-way; counter-clockwise; signal exit with right indicator after passing the exit before yours.",
-        "U-turn: 150 m visibility both ways; banned on curves, hilltops, near railway crossings, bridges/tunnels. Backing up: look over your shoulder; seatbelt may be removed while reversing."
+        "U-turn: 150 m visibility both ways; banned on curves, hilltops, near railway crossings, bridges/tunnels. Backing up: look over your shoulder; seatbelt may be removed while reversing.",
+        "Three-point turn: starts from the far right side; signal left, turn sharply left to the far curb and stop; reverse signalling right to the other side and stop; drive forward when clear."
       ],
       "india_note": "Right turn on red after a full stop is legal in Ontario unless signed otherwise — there is no equivalent concept in India. Left on red is allowed only one-way to one-way. U-turns need 150 m visibility both ways.",
       "questions": [
@@ -497,6 +577,17 @@
           ],
           "answer": 3,
           "source": "L6, \"Never make a U-turn unless you can see at least 150 metres in both directions.\""
+        },
+        {
+          "q": "Which is the correct way to begin and complete a three-point turn?",
+          "options": [
+            "Start from the far right side; signal left and turn sharply left to the far curb, stop; reverse signalling right to the other side, stop; drive forward when clear",
+            "Start from the far left side; signal right and reverse first",
+            "Start from the middle of the road and turn in one movement",
+            "Three-point turns must always begin from a driveway"
+          ],
+          "answer": 0,
+          "source": "L6, 'Three-point turn: on narrow roads; starts from the far right side. Signal LEFT; when clear both ways, move forward turning sharply left toward the far curb; stop at the left side. Shift to reverse; signal RIGHT; ... turn sharply right while backing slowly to the other side; stop. Shift to forward; check traffic; drive forward when clear.'"
         }
       ]
     },
@@ -552,7 +643,7 @@
             "Left",
             "Right, unless on a one-way road",
             "Either side",
-            "Left on a one-way road"
+            "Either side — it is the driver's choice"
           ],
           "answer": 1,
           "source": "L7, \"You must pass streetcars on the right unless you are driving on a one-way road.\""
@@ -637,6 +728,28 @@
           ],
           "answer": 1,
           "source": "L8, Dutch reach description."
+        },
+        {
+          "q": "When parking facing uphill with a curb, turn your front wheels:",
+          "options": [
+            "To the left, toward the road",
+            "To the right, toward the curb",
+            "Straight ahead",
+            "Sharply to the right"
+          ],
+          "answer": 0,
+          "source": "L8, 'Facing UPHILL WITH a curb — turn wheels to the LEFT, toward the road (tires catch the curb if it rolls back).'"
+        },
+        {
+          "q": "When you make a short roadside stop, how far from the curb or edge of the road should you stop?",
+          "options": [
+            "No more than about 30 cm away",
+            "About 1 m away",
+            "About 2 m away",
+            "As close to the centre line as possible"
+          ],
+          "answer": 0,
+          "source": "L8, 'Roadside stop: stop parallel to curb/edge, no more than ~30 cm away.'"
         }
       ]
     },
@@ -707,6 +820,17 @@
           ],
           "answer": 1,
           "source": "L9, HOV reserved for \"vehicles carrying at least two people.\""
+        },
+        {
+          "q": "Is it legal to cross the striped buffer zone to enter or leave an HOV lane?",
+          "options": [
+            "Yes, at any time",
+            "No — it is illegal and unsafe to cross the striped buffer markings",
+            "Yes, if traffic is light",
+            "Only buses may cross it"
+          ],
+          "answer": 1,
+          "source": "L9, HOV: 'Separated by a striped buffer zone — ILLEGAL and unsafe to cross the striped buffer markings.'"
         }
       ]
     },
@@ -719,7 +843,8 @@
         "Drowsy driving: peak 2–6 a.m. and 2–4 p.m.; 8 warning signs; only cure is sleep.",
         "Construction zones: doubled fines for speeding when workers present; don't change lanes.",
         "Distracted driving: ~100 killed / 16,000 injured per year in Ontario; texting = 10× crash risk; handheld ban applies even stopped at a red light.",
-        "Emergency vehicles: stop immediately to the right curb (NOT the shoulder); move over + slow down for stopped emergency vehicles/tow trucks (3 points for failing to)."
+        "Emergency vehicles: stop immediately to the right curb (NOT the shoulder); move over + slow down for stopped emergency vehicles/tow trucks (3 points for failing to).",
+        "If someone injured in a collision is going into shock, cover them with a jacket or blanket to reduce the effects of shock; stay with injured people."
       ],
       "india_note": "In India emergency vehicles are often not yielded to systematically and phone use stopped at a red light is common. In Ontario stop immediately to the right curb (not the shoulder), and the handheld ban applies even when stopped in traffic or at a red light.",
       "questions": [
@@ -777,6 +902,17 @@
           ],
           "answer": 1,
           "source": "L10, \"doubled fines for speeding in a construction zone when workers are present.\""
+        },
+        {
+          "q": "If someone injured in a collision is going into shock, you should:",
+          "options": [
+            "Give them water to drink",
+            "Cover the person with a jacket or blanket to reduce the effects of shock",
+            "Move them into your vehicle",
+            "Leave them alone until police arrive"
+          ],
+          "answer": 1,
+          "source": "L12, 'into shock; cover the person with a jacket/blanket to reduce shock effects. Stay with injured people...'"
         }
       ]
     },
@@ -789,7 +925,12 @@
         "Fog/whiteout: LOW beams (never high beams), use the right edge as a guide, never stop on the travelled portion.",
         "Hydroplaning: tires ride on water; slow down, good tread.",
         "Skid: ease off, steer where you want to go; ABS pulsation is normal — don't release the pedal; threshold braking is for non-ABS cars, don't pump.",
-        "Black ice: shiny black asphalt, bridges/overpasses freeze first; snow plows: flashing blue lights visible 150 m, never pass between staggered plows."
+        "Black ice: shiny black asphalt, bridges/overpasses freeze first; snow plows: flashing blue lights visible 150 m, never pass between staggered plows.",
+        "Tire blowout: foot off the gas, steer firmly in the direction you want to go, bring the vehicle to a stop off the road.",
+        "Glare: meeting oncoming bright headlights at night, look up and beyond, slightly to the right of the oncoming lights.",
+        "Rain: roads are most slippery as the first drops fall.",
+        "Flooded roads: avoid them; if you must drive through, test brakes afterward with a quick firm stop at 50 km/h in a straight line.",
+        "Winter driving survival kit: warm clothing, non-perishable food, flashlight, shovel, blanket."
       ],
       "india_note": "Snow, ice, black ice, whiteouts and snow plows are new knowledge for an Indian driver. In fog and snow use LOW beams (never high beams) and never stop on the travelled portion; if stranded, stay with the vehicle.",
       "questions": [
@@ -847,6 +988,72 @@
           ],
           "answer": 2,
           "source": "L11, \"flashing blue lights that can be seen from 150 metres.\""
+        },
+        {
+          "q": "A road that looks black and shiny in winter may be covered by:",
+          "options": [
+            "Wet leaves",
+            "Black ice — a thin layer of ice",
+            "Fresh asphalt",
+            "Oil"
+          ],
+          "answer": 1,
+          "source": "L11, 'Road that looks black and shiny may be covered by a thin layer of ice — black ice; asphalt in winter should generally look grey-white.'"
+        },
+        {
+          "q": "If a tire blows out while you are driving, you should:",
+          "options": [
+            "Brake hard immediately",
+            "Take your foot off the gas, steer firmly in the direction you want to go, and bring the vehicle to a stop off the road",
+            "Speed up to keep control",
+            "Turn the wheel sharply toward the blown tire"
+          ],
+          "answer": 1,
+          "source": "L12, 'Tire blows out: blowouts cause tremendous steering/wheel vibration — don't be alarmed. Foot off the gas to slow down; steer firmly in the direction you want to go; bring the vehicle to a stop off the road.'"
+        },
+        {
+          "q": "When you meet oncoming bright headlights at night, you should:",
+          "options": [
+            "Look directly at the oncoming lights",
+            "Look up and beyond, slightly to the right of the oncoming lights",
+            "Close one eye and keep driving",
+            "Switch on your high beams"
+          ],
+          "answer": 1,
+          "source": "L11, 'Meeting oncoming bright headlights at night: look up and beyond, slightly to the RIGHT of the oncoming lights.'"
+        },
+        {
+          "q": "When is a wet road most slippery?",
+          "options": [
+            "After hours of steady rain",
+            "As the first drops fall",
+            "Only in freezing rain",
+            "When the road is completely flooded"
+          ],
+          "answer": 1,
+          "source": "L11, 'Rain: surfaces slippery, especially as the FIRST drops fall.'"
+        },
+        {
+          "q": "After driving through a flooded stretch of road, how should you test your brakes?",
+          "options": [
+            "Stop quickly and firmly at 50 km/h in a straight line",
+            "Pump the brakes gently at 20 km/h",
+            "Drive at 100 km/h to dry them",
+            "Do not test them — just keep driving"
+          ],
+          "answer": 0,
+          "source": "L11, 'test brakes afterward to dry them: when safe, stop quickly and firmly at 50 km/h; vehicle must stop in a straight line without pulling to one side.'"
+        },
+        {
+          "q": "Which items belong in a winter driving survival kit?",
+          "options": [
+            "Warm clothing, non-perishable food, a flashlight, a shovel and a blanket",
+            "A spare tire, a jack and a fuel can only",
+            "A GPS, a phone charger and sunglasses",
+            "Sand, salt and a tow rope only"
+          ],
+          "answer": 0,
+          "source": "L11, 'Carry a winter driving survival kit: warm clothing, non-perishable energy foods, flashlight, shovel, blanket.'"
         }
       ]
     },
@@ -987,6 +1194,17 @@
           ],
           "answer": 1,
           "source": "L13, \"Don't 'top-off' the tank when refueling. Spilled fuel releases harmful vapours.\""
+        },
+        {
+          "q": "About how long does a vehicle's engine take to warm up?",
+          "options": [
+            "About 30 seconds",
+            "About 5 minutes",
+            "About 10 minutes",
+            "About 30 minutes"
+          ],
+          "answer": 0,
+          "source": "L13, 'engines warm up within 30 seconds.'"
         }
       ]
     },
@@ -1209,7 +1427,8 @@
         "Freeway exit numbers = distance from the start of the freeway (401 exit 204 = 204 km from Windsor).",
         "Slow-moving vehicle: orange triangle, red border, ≤40 km/h.",
         "LCV placard: double trailer up to 40 m.",
-        "EDR signs: emergency detour when OPP close a provincial highway."
+        "EDR signs: emergency detour when OPP close a provincial highway.",
+        "Temporary condition signs also include milled/grooved pavement (stopping ability may be affected) and bilingual signs — read the language you understand best."
       ],
       "india_note": "In India exit numbers are sequential. In Ontario freeway exit numbers are distance-based — Highway 401 exit 204 is 204 km from Windsor. The slow-moving vehicle sign (orange triangle, red border) means 40 km/h or less.",
       "questions": [
@@ -1267,6 +1486,28 @@
           ],
           "answer": 3,
           "source": "B1, \"can be up to 40 metres in length.\""
+        },
+        {
+          "q": "A temporary condition sign warns that the pavement has been milled or grooved. What does it mean?",
+          "options": [
+            "Stopping ability may be affected — obey the speed limit and drive with extra caution",
+            "The road is closed ahead",
+            "You must stop and wait for a pilot vehicle",
+            "The speed limit is doubled"
+          ],
+          "answer": 0,
+          "source": "B1, temporary condition signs: 'Pavement has been milled or grooved — stopping ability may be affected; obey the speed limit, drive with extra caution; motorcyclists may experience reduced traction.'"
+        },
+        {
+          "q": "On a bilingual road sign, which language should you read?",
+          "options": [
+            "Always read the English",
+            "Always read the French",
+            "Read the message in the language you understand best",
+            "Both languages, or the sign is not valid"
+          ],
+          "answer": 2,
+          "source": "B1, 'Bilingual signs: in designated bilingual areas. Read the message in the language you understand best.'"
         }
       ]
     },
@@ -1349,7 +1590,10 @@
         "No pedestrian signal + green light: pedestrians may cross; never on a flashing green or left-turn arrow.",
         "Yellow lines = opposite directions; white lines = same direction.",
         "Solid line left = unsafe to pass; broken line left = may pass if clear.",
-        "Continuity lines on the left = your lane is ending/exiting. Crossover markings: double white lines + X in each approaching lane; stop before the line until pedestrians completely cross."
+        "Continuity lines on the left = your lane is ending/exiting. Crossover markings: double white lines + X in each approaching lane; stop before the line until pedestrians completely cross.",
+        "Two-way centre left-turn lane: for left turns from either direction only — never for passing.",
+        "Sharrows: two chevrons above a bicycle symbol = shared lane.",
+        "A pedestrian facing a walk signal has the right-of-way over ALL vehicles while crossing."
       ],
       "india_note": "In India lane markings are often ignored or faded. In Ontario solid vs broken, yellow vs white, and continuity lines are explicit pass / no-pass rules and are tested.",
       "questions": [
@@ -1407,6 +1651,50 @@
           ],
           "answer": 1,
           "source": "B4, continuity-lines rule."
+        },
+        {
+          "q": "A broken line at the left of your lane means:",
+          "options": [
+            "You may pass if it is safe to do so",
+            "It is unsafe to pass",
+            "Your lane is ending",
+            "You must turn"
+          ],
+          "answer": 0,
+          "source": "B4, 'broken line left = may pass if clear.'"
+        },
+        {
+          "q": "A two-way centre left-turn lane may be used:",
+          "options": [
+            "For passing slower traffic",
+            "Only for left turns from either direction — never for passing",
+            "For parking while waiting to turn",
+            "Only for buses"
+          ],
+          "answer": 1,
+          "source": "L6, 'Two-way left-turn lane (centre lane)... These lanes are NOT for passing.'"
+        },
+        {
+          "q": "A sharrow (two chevrons above a bicycle symbol painted on the road) means:",
+          "options": [
+            "A bicycle-only lane — cars must not enter",
+            "A shared lane — either a vehicle or a bicycle may be in it",
+            "No bicycles allowed",
+            "A bicycle parking area"
+          ],
+          "answer": 1,
+          "source": "L3, 'Sharrows: two chevrons above a bicycle symbol = shared lane; either vehicle or bicycle may be in it.'"
+        },
+        {
+          "q": "A pedestrian facing a walk signal has the right-of-way over:",
+          "options": [
+            "No vehicles — pedestrians must wait for a green light",
+            "Only turning vehicles",
+            "All vehicles",
+            "Only vehicles coming from behind"
+          ],
+          "answer": 2,
+          "source": "B3, 'A pedestrian facing a walk signal may cross in the direction of the signal; while crossing, pedestrians have the right-of-way over ALL vehicles.'"
         }
       ]
     },
@@ -1477,6 +1765,17 @@
           ],
           "answer": 1,
           "source": "C1, \"can claim a maximum of 12 months of driving experience.\""
+        },
+        {
+          "q": "A G1 driver must not drive between which hours?",
+          "options": [
+            "Midnight to 5 a.m.",
+            "10 p.m. to 6 a.m.",
+            "9 p.m. to 5 a.m.",
+            "Midnight to 6 a.m."
+          ],
+          "answer": 0,
+          "source": "C1, G1 rules: 'Must NOT drive between midnight and 5 a.m.'"
         }
       ]
     },
@@ -1547,6 +1846,39 @@
           ],
           "answer": 0,
           "source": "C2, \"You must tell the Ministry of Transportation within six days of changing your name or address.\""
+        },
+        {
+          "q": "After a licence is suspended for demerit points, how many points are left on the driver's record?",
+          "options": [
+            "Novice: 4, fully licensed: 7",
+            "Novice: 7, fully licensed: 4",
+            "Both: 0",
+            "Both: 9"
+          ],
+          "answer": 0,
+          "source": "C2, novice: 'After suspension, points reduced to 4'; fully licensed: 'points reduced to 7.'"
+        },
+        {
+          "q": "How many demerit points is careless driving worth?",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "7"
+          ],
+          "answer": 2,
+          "source": "C2, Table of Offences: '6 — careless driving.'"
+        },
+        {
+          "q": "At how many demerit points does a driver first receive a warning letter?",
+          "options": [
+            "Novice: 2, fully licensed: 6",
+            "Novice: 6, fully licensed: 2",
+            "Both: 9",
+            "Both: 15"
+          ],
+          "answer": 0,
+          "source": "C2, novice: '2+ points → warning letter'; fully licensed: '6 points → warning letter.'"
         }
       ]
     },
@@ -1559,7 +1891,10 @@
         "Zero BAC for all drivers 21 and under and all G1/G2/M1/M2 holders; violation = 24-hour roadside suspension; conviction = fine + ≥30-day suspension.",
         "ADLS: immediate 90-day suspension for BAC over .08 or refusing a sample/test.",
         "Novice-condition violation = 30-day suspension.",
-        "Driving while suspended (HTA): fines in the thousands + up to 6 months' jail + 6 months added; Criminal Code suspension: tens of thousands + jail; 7-day vehicle impoundment (45 days minimum for Criminal Code suspension). Impaired causing bodily harm: up to 14 years; causing death: up to life."
+        "Driving while suspended (HTA): fines in the thousands + up to 6 months' jail + 6 months added; Criminal Code suspension: tens of thousands + jail; 7-day vehicle impoundment (45 days minimum for Criminal Code suspension). Impaired causing bodily harm: up to 14 years; causing death: up to life.",
+        "First Criminal Code impaired-driving conviction: at least a 1-year licence suspension, mandatory alcohol education/treatment, and an ignition interlock for at least 1 year (current ontario.ca, July 1, 2026 changes).",
+        "Street racing and driving stunts are aggressive driving that can trigger escalating sanctions.",
+        "GPS: while driving you may program a GPS device only by voice commands."
       ],
       "india_note": "India's drink-driving penalties are entirely different. Ontario: zero BAC for drivers 21 and under and all G1/G2 holders; warn range 0.05–0.079 and criminal threshold 0.08, with an immediate 90-day suspension (ADLS) over 0.08.",
       "questions": [
@@ -1589,12 +1924,12 @@
           "q": "The \"warn range\" for blood alcohol concentration is:",
           "options": [
             ".02–.05",
-            ".05–.08",
+            ".05–.079",
             ".08–.10",
             ".10–.15"
           ],
           "answer": 1,
-          "source": "C3, \"blood-alcohol concentration in the 'warn range' of .05 to .08.\""
+          "source": "C3, \"blood-alcohol concentration in the 'warn range' of .05 to .08.\" NOTE (current ontario.ca): the warn range is .05–.079 — .08 or over is over the legal limit (immediate 90-day ADLS), not the warn range."
         },
         {
           "q": "A novice driver who violates a graduated-licensing condition faces a licence suspension of:",
@@ -1617,6 +1952,61 @@
           ],
           "answer": 3,
           "source": "C3, \"Impaired driving causing death can carry a sentence of imprisonment for life.\""
+        },
+        {
+          "q": "Impaired driving causing bodily harm can carry a prison sentence of up to:",
+          "options": [
+            "1 year",
+            "5 years",
+            "14 years",
+            "Life imprisonment"
+          ],
+          "answer": 2,
+          "source": "C3, 'Impaired driving causing bodily harm: up to 14 years in prison.'"
+        },
+        {
+          "q": "Driving while prohibited under a Criminal Code prohibition order brings a licence suspension of:",
+          "options": [
+            "6 months for a first offence, 1 year for a second",
+            "1 year for a first offence, 2 years for a subsequent offence",
+            "30 days for a first offence, 90 days for a second",
+            "90 days for any offence"
+          ],
+          "answer": 1,
+          "source": "C3, 'Driving while prohibited (Criminal Code prohibition order): 1-year suspension for a first offence, 2 years for a subsequent offence.'"
+        },
+        {
+          "q": "For a first Criminal Code impaired-driving conviction, which penalties apply?",
+          "options": [
+            "A 90-day suspension and a $250 fine",
+            "At least a 1-year licence suspension, mandatory alcohol education/treatment, and an ignition interlock for at least 1 year",
+            "A 30-day suspension only",
+            "A lifetime licence suspension"
+          ],
+          "answer": 1,
+          "source": "C3, 'Criminal Code suspensions: 1-year licence suspension the first time you are convicted of a Criminal Code offence'; current ontario.ca note (July 1, 2026): 1st conviction ≥1-year suspension + education/treatment + ignition interlock ≥1 year."
+        },
+        {
+          "q": "Street racing is listed in the handbook as an example of:",
+          "options": [
+            "Careful driving in light traffic",
+            "Aggressive driving that can trigger escalating sanctions",
+            "A Criminal Code offence carrying a mandatory 1-year suspension",
+            "A parking offence"
+          ],
+          "answer": 1,
+          "source": "C3, escalating sanctions: 'Other aggressive driving: driving 40+ km/h over...; street racing; driving stunts.'"
+        },
+        {
+          "q": "While driving, you may operate a GPS device:",
+          "options": [
+            "By typing an address at any time",
+            "Only by voice commands",
+            "By holding it in your hand",
+            "Only when stopped at a red light"
+          ],
+          "answer": 1,
+          "source": "Distracted driving, 'program a GPS device EXCEPT by voice commands.'"
         }
       ]
     },
@@ -1629,7 +2019,9 @@
         "Tires: replace at <1.5 mm tread (3 mm front tires for vehicles >4,500 kg); not older than 10 years; four matching winter/all-weather tires in winter.",
         "Insurance is compulsory; plates move with the owner, not the vehicle; new residents have 30 days to register.",
         "Towing: G licence to tow up to 4,600 kg; trailer ≥1,360 kg needs brakes; >2.05 m wide needs extra clearance lights; 5–10% of trailer weight on the hitch; two separate attachments; safety chains crossed under the tongue; no passengers in a trailer; never tow more than one trailer (non-commercial).",
-        "Backing a trailer: to go right, steer left (and vice versa)."
+        "Backing a trailer: to go right, steer left (and vice versa).",
+        "Auto insurance in Ontario is compulsory and regulated by FSRA; check brokers with RIBO.",
+        "New residents registering a vehicle need a safety standards certificate, proof of insurance, and the previous vehicle permit/ownership."
       ],
       "india_note": "Towing and trailer rules (brakes at 1,360 kg, 5–10% of weight on the hitch, safety chains crossed under the tongue, no passengers in a trailer) have no close Indian equivalent for most car drivers.",
       "questions": [
@@ -1687,6 +2079,28 @@
           ],
           "answer": 1,
           "source": "D3, \"About five to 10 per cent of the trailer's total weight should be supported on the hitch.\""
+        },
+        {
+          "q": "Which body regulates auto insurance in Ontario?",
+          "options": [
+            "The Ministry of Transportation",
+            "The Financial Services Regulatory Authority of Ontario (FSRA)",
+            "The Registered Insurance Brokers of Ontario (RIBO)",
+            "ServiceOntario"
+          ],
+          "answer": 1,
+          "source": "D2, 'The Financial Services Regulatory Authority of Ontario (FSRA) regulates insurance.' (RIBO is the brokers' self-regulatory body — check brokers with RIBO.)"
+        },
+        {
+          "q": "A new resident registering a vehicle in Ontario must bring to a ServiceOntario centre, among other documents:",
+          "options": [
+            "A safety standards certificate",
+            "A parking permit",
+            "A vehicle warranty",
+            "A driver's abstract only"
+          ],
+          "answer": 0,
+          "source": "D2, new residents registering a vehicle: 'go to a ServiceOntario centre with: a safety standards certificate; proof of insurance; Vehicle Import Forms (if brought from another country); the vehicle permit/ownership from where you used to live.'"
         }
       ]
     }
